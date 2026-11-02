@@ -1,0 +1,70 @@
+<svg
+  aria-labelledby="title"
+  height="210"
+  role="img"
+  viewBox="0 0 360 210"
+  width="360"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Written for tilli-pro/intrastate (scripts/generate-github-stats). -->
+  <title id="title">Most Used Languages</title>
+  <style>
+  .card {
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+      sans-serif;
+  }
+  .heading {
+    font-size: 15px;
+    font-weight: 600;
+    fill: rgb(72, 148, 224);
+  }
+  .lang {
+    font-size: 12px;
+    font-weight: 600;
+    fill: rgb(135, 135, 135);
+  }
+  .percent {
+    font-size: 12px;
+    fill: rgb(150, 150, 150);
+  }
+  </style>
+  <defs>
+    <clipPath id="bar">
+      <rect height="8" rx="4" width="320" x="20" y="50" />
+    </clipPath>
+  </defs>
+  <rect
+    fill="none"
+    height="209"
+    rx="6"
+    stroke="#8B8B8B22"
+    width="359"
+    x="0.5"
+    y="0.5"
+  />
+  <g class="card">
+    <text class="heading" x="20" y="33">Most Used Languages</text>
+    <g clip-path="url(#bar)">
+      <rect fill="#8B8B8B22" height="8" width="320" x="20" y="50" />
+      <rect class="progress-item" x="20" y="50" width="70.43" height="8" fill="#3178c6" />
+      <rect class="progress-item" x="90.43" y="50" width="64.46" height="8" fill="#e34c26" />
+      <rect class="progress-item" x="154.89" y="50" width="57.82" height="8" fill="#f1e05a" />
+      <rect class="progress-item" x="212.71" y="50" width="37.38" height="8" fill="#4F5D95" />
+      <rect class="progress-item" x="250.09" y="50" width="23.55" height="8" fill="#7355dd" />
+      <rect class="progress-item" x="273.65" y="50" width="18.39" height="8" fill="#b07219" />
+      <rect class="progress-item" x="292.03" y="50" width="14.93" height="8" fill="#3572A5" />
+      <rect class="progress-item" x="306.96" y="50" width="6.8" height="8" fill="#663399" />
+      <rect class="progress-item" x="313.76" y="50" width="26.24" height="8" fill="#8b949e" />
+    </g>
+    <g class="lang-item"><circle cx="25" cy="80" r="5" fill="#3178c6" /><text x="36" y="84"><tspan class="lang">TypeScript</tspan> <tspan class="percent">22.01%</tspan></text></g>
+    <g class="lang-item"><circle cx="185" cy="80" r="5" fill="#e34c26" /><text x="196" y="84"><tspan class="lang">HTML</tspan> <tspan class="percent">20.14%</tspan></text></g>
+    <g class="lang-item"><circle cx="25" cy="104" r="5" fill="#f1e05a" /><text x="36" y="108"><tspan class="lang">JavaScript</tspan> <tspan class="percent">18.07%</tspan></text></g>
+    <g class="lang-item"><circle cx="185" cy="104" r="5" fill="#4F5D95" /><text x="196" y="108"><tspan class="lang">PHP</tspan> <tspan class="percent">11.68%</tspan></text></g>
+    <g class="lang-item"><circle cx="25" cy="128" r="5" fill="#7355dd" /><text x="36" y="132"><tspan class="lang">C#</tspan> <tspan class="percent">7.36%</tspan></text></g>
+    <g class="lang-item"><circle cx="185" cy="128" r="5" fill="#b07219" /><text x="196" y="132"><tspan class="lang">Java</tspan> <tspan class="percent">5.75%</tspan></text></g>
+    <g class="lang-item"><circle cx="25" cy="152" r="5" fill="#3572A5" /><text x="36" y="156"><tspan class="lang">Python</tspan> <tspan class="percent">4.67%</tspan></text></g>
+    <g class="lang-item"><circle cx="185" cy="152" r="5" fill="#663399" /><text x="196" y="156"><tspan class="lang">CSS</tspan> <tspan class="percent">2.12%</tspan></text></g>
+    <g class="lang-item"><circle cx="25" cy="176" r="5" fill="#8b949e" /><text x="36" y="180"><tspan class="lang">Other</tspan> <tspan class="percent">8.20%</tspan></text></g>
+  </g>
+</svg>
