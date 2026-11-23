@@ -22,12 +22,12 @@
     <text x="340" y="109" text-anchor="end" class="value">5</text>
     <g class="icon" transform="translate(20 121)"><path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z" /></g>
     <text x="44" y="133" class="label">Members</text>
-    <text x="340" y="133" text-anchor="end" class="value">32</text>
+    <text x="340" y="133" text-anchor="end" class="value">34</text>
     <g class="icon" transform="translate(20 145)"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z" /></g>
     <text x="44" y="157" class="label">Commits (last 12 months)</text>
-    <text x="340" y="157" text-anchor="end" class="value">30,779</text>
+    <text x="340" y="157" text-anchor="end" class="value">37,652</text>
     <g class="icon" transform="translate(20 169)"><path d="M8.75 1.75V5H12a.75.75 0 0 1 0 1.5H8.75v3.25a.75.75 0 0 1-1.5 0V6.5H4A.75.75 0 0 1 4 5h3.25V1.75a.75.75 0 0 1 1.5 0ZM4 13h8a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 4 13Z" /></g>
     <text x="44" y="181" class="label">Lines of code changed</text>
-    <text x="340" y="181" text-anchor="end" class="value">155,432,703</text>
+    <text x="340" y="181" text-anchor="end" class="value">126,297,175</text>
   </g>
 </svg>
